@@ -9,11 +9,55 @@
             box-sizing: border-box;
             background-color: grey;
         }
+
+        #menu-plan {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            height: 450px;
+
+        }
+
+        .square {
+            background-color: lightgray;
+            border-radius: 5px;
+            width: 220px;
+            height: 120px;
+            padding: 10px;
+            margin: 10px;
+        }
+        .add-button {
+            width: 60px;
+            height: 30px;
+            margin: 29px;
+        }
     </style>
 </head>
 <body>
     <!--Put your code here-->
-    <section></section>
+    <section>
+
+    <div id="menu-plan">    
+        <div id="item-1" class="square">
+            California King Mattress - $3,400
+
+            <button id="add-cost-34" class="add-button">Add</button>
+        </div> 
+
+        <div id="item-2" class="square">
+            Mahogany Wood Frame - $6,000
+
+            <button id="add-cost-60" class="add-button">Add</button>
+        </div>
+
+        <div id="item-3" class="square">
+            Silk Bedspread - $7,000
+
+            <button id="add-cost-70" class="add-button">Add</button>
+        </div>
+    </div>
+
+    </section>
 
     <script src="index.js"></script>
 </body>
