@@ -9,5 +9,5 @@ const itemThree = getElementById("add-cost-70");
 
 
 function totalAmount() {
-
+    
 }
