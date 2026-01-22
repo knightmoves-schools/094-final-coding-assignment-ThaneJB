@@ -1,5 +1,5 @@
 // Put your code here
-const display = getElementById("")
+const display = getElementById("display-total");
 
 const itemOne = getElementById("add-cost-34");
 
