@@ -7,7 +7,10 @@ const itemTwo = getElementById("add-cost-60");
 
 const itemThree = getElementById("add-cost-70");
 
+let total = 0;
 
-function totalAmount() {
-    
+function addTotal(value) {
+    total += value;
+
+    document.getElementById("total").textContent = total.toLocaleString("en-US");
 }
