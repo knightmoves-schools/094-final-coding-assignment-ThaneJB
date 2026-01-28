@@ -14,3 +14,4 @@ function addTotal(value) {
 
     document.getElementById("total").textContent = total.toLocaleString("en-US");
 }
+
