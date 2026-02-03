@@ -1,5 +1,5 @@
 // Put your code here
-const display = getElementById("display-total");
+const display = document.getElementById("display-sum");
 
 let total = 0;
 
